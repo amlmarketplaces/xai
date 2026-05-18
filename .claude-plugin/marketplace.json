@@ -1,0 +1,23 @@
+{
+  "name": "xai",
+  "owner": {
+    "name": "Xai"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/xai-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "xai-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/xai-chat.git"
+      }
+    },
+    {
+      "name": "xai-images",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/xai-images.git"
+      }
+    }
+  ]
+}
